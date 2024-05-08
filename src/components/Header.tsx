@@ -19,7 +19,7 @@ export default function Header() {
   return (
     <div>
       <header className='flex items-center justify-between mx-auto max-w-7xl'>
-        <img src="https://www.designevo.com/media/header/images/designevo-logo.png" alt="logo" className='h-10 cursor-pointer' />
+        <img src="https://dynamic.brandcrowd.com/asset/logo/bce3cfe1-10fc-4f06-8fce-387a92ca6dcf/logo-search-grid-1x?logoTemplateVersion=1&v=638423742753870000" alt="logo" className='h-24 cursor-pointer' />
         <ul className='flex space-x-6'>
           <li onClick={jump('/')} className={`cursor-pointer border-b-4  ${highLight('/') ? 'border-b-green-300 font-bold' : 'border-b-transparent'}`}>Home</li>
           <li onClick={jump('/offers')} className={`cursor-pointer border-b-4  ${highLight('/offers') ? 'border-b-green-300 font-bold' : 'border-b-transparent'}`} >Offers</li>

@@ -7,8 +7,6 @@ import Header from "./components/Header";
 import Offers from "./pages/Offers";
 
 function App() {
-
-
   return (
     <div>
       <BrowserRouter>
